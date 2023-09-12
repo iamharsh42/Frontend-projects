@@ -5,4 +5,4 @@ I'll share all my frontend projects in this repository. I hope you guys will lik
 
 2) Animated Login Form (visit site: https://frontend-projects-eoba.vercel.app/)
 
-3) Parallax Website
+3) Parallax Website (visit site: https://frontend-projects-97j2.vercel.app/)
