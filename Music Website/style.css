@@ -175,7 +175,7 @@ button:hover {
   gap: 30px;
 }
 
-.right {
+.right-side {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -185,7 +185,7 @@ hr {
   width: 100%;
 }
 
-.right button {
+.right-side button {
   width: 100px;
   height: 30px;
   background: purple;
