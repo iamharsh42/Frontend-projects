@@ -28,6 +28,7 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
 header nav {
@@ -80,4 +81,63 @@ nav h2 {
 
 .hero-section p {
   margin: 10px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--lightGreen);
+  padding: 35px 100px 20px;
+}
+
+h2 span {
+  font-size: 20px;
+}
+
+.small-text {
+  font-size: 9px;
+}
+
+h4 {
+  margin: 20px 0px;
+}
+
+.container p {
+  margin: 0px auto 20px;
+}
+
+.container button {
+  width: 150px;
+  height: 40px;
+  background: var(--black);
+  color: var(--white);
+  border-radius: 7px;
+  transition: 0.5s all ease-in;
+  margin: 5px auto 25px;
+}
+button:hover {
+  color: red;
+}
+
+.ipad-img {
+  position: relative;
+  top: 400px;
+  margin-top: -400px;
+}
+
+.about {
+  padding: 400px 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.about button {
+  padding: 5px 20px;
+  background: var(--darkGreen);
+  border-radius: 7px;
+  border: none;
 }
