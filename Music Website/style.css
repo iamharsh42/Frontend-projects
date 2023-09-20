@@ -141,3 +141,53 @@ button:hover {
   border-radius: 7px;
   border: none;
 }
+
+.video-section {
+  background: url(media/video.png);
+  min-height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 70px 10px;
+  color: var(--white);
+}
+
+.videoContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 70px 10px;
+  color: var(--white);
+  margin-top: -200px;
+}
+
+.gift-section {
+  padding: 70px 150px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+}
+hr {
+  width: 100%;
+}
+
+.right button {
+  width: 100px;
+  height: 30px;
+  background: purple;
+  color: var(--white);
+}
