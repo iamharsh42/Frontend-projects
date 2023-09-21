@@ -5,6 +5,7 @@
   padding: 0px;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -12,15 +13,22 @@
   --darkGreen: rgb(14, 176, 22);
   --black: rgb(0, 0, 0);
   --white: rgb(255, 255, 255);
+  --red: rgb(235, 52, 55);
+  --pink: rgba(240, 113, 187, 0.6);
 }
 
 body {
   font-weight: 300;
   line-height: 1.4;
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin: 40px;
 }
 
 header {
-  background: var(--lightGreen);
+  background: var(--white);
   color: var(--black);
   height: 65px;
   display: flex;
@@ -28,6 +36,7 @@ header {
   justify-content: space-between;
   position: sticky;
   top: 0px;
+  z-index: 100;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
@@ -53,14 +62,16 @@ nav a:hover {
 nav h2 {
   font-family: "Pacifico", cursive;
   font-size: 36px;
+  color: red;
 }
 
 .hero-section {
   width: 100vw;
   max-width: 100%;
   min-height: 700px;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(media/music-background.jpg);
+  /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(media/music-background.jpg); */
+  background: url(media/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -68,7 +79,8 @@ nav h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: var(--white);
+  color: var(--black);
+  position: relative;
 }
 
 .hero-section h1 {
@@ -77,10 +89,22 @@ nav h2 {
   margin-bottom: 15px;
   font-family: "Pacifico", cursive;
   text-decoration: underline;
+  /* color: var(--black); */
+  color: rgba(139, 23, 212, 0.6);
+  position: absolute;
+  top: 240px;
 }
 
 .hero-section p {
   margin: 10px 0;
+}
+
+.content {
+  position: absolute;
+  top: 500px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .container {
@@ -88,7 +112,8 @@ nav h2 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: var(--lightGreen);
+  /* background: var(--lightGreen); */
+  background: rgba(70, 65, 224, 0.2);
   padding: 35px 100px 20px;
 }
 
@@ -140,6 +165,7 @@ button:hover {
   background: var(--darkGreen);
   border-radius: 7px;
   border: none;
+  color: white;
 }
 
 .video-section {
@@ -190,4 +216,31 @@ hr {
   height: 30px;
   background: purple;
   color: var(--white);
+}
+
+.upper-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 150px;
+  background: var(--lightGreen);
+}
+
+.upper-footer ul li {
+  list-style: none;
+}
+
+.upper-footer h4 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--black);
+}
+
+.lower-footer {
+  text-align: center;
+  background: var(--darkGreen);
+  height: 50px;
+}
+
+.lower-footer p {
+  padding: 10px;
 }
