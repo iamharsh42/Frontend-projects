@@ -180,3 +180,31 @@ footer {
 hr {
   width: 100vw;
 }
+
+.main2 {
+  width: 900px;
+  margin: 20px auto;
+}
+
+.main2 img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.author {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.main2 h1 {
+  font-weight: 600;
+  margin: 10px 0;
+  font-size: 60px;
+}
+
+.author h4 {
+  letter-spacing: 3px;
+}
