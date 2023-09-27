@@ -7,4 +7,4 @@ I'll share all my frontend projects in this repository. I hope you guys will lik
 
 3) Parallax Website (visit site: https://frontend-projects-97j2.vercel.app/)
 
-4) Music Website
+4) Music Website (visit site: https://calm-lily-e87b0d.netlify.app)
