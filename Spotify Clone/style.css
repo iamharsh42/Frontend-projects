@@ -7,3 +7,9 @@ nav {
 nav img {
   width: 70px;
 }
+
+.nav-right a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: #000;
+}
